@@ -113,7 +113,7 @@ describe('DialogQueue', () => {
 
     queue.alert({ title: 'myAlert' });
 
-    expect(screen.getByText('myAlert')).toBeInTheDocument();
+    expect(await screen.findByText('myAlert')).toBeInTheDocument();
 
     userEvent.click(screen.getByText('OK'));
 
@@ -127,7 +127,7 @@ describe('DialogQueue', () => {
     render(<DialogQueue dialogs={queue.dialogs} />);
     queue.confirm({ title: 'myConfirm' });
 
-    expect(screen.getByText('myConfirm')).toBeInTheDocument();
+    expect(await screen.findByText('myConfirm')).toBeInTheDocument();
 
     userEvent.click(screen.getByText('OK'));
 
@@ -141,7 +141,7 @@ describe('DialogQueue', () => {
     render(<DialogQueue dialogs={queue.dialogs} />);
     queue.confirm({ title: 'myConfirm' });
 
-    expect(screen.getByText('myConfirm')).toBeInTheDocument();
+    expect(await screen.findByText('myConfirm')).toBeInTheDocument();
 
     userEvent.click(screen.getByText('Cancel'));
 
@@ -156,7 +156,7 @@ describe('DialogQueue', () => {
 
     queue.prompt({ title: 'myPrompt' });
 
-    expect(screen.getByText('myPrompt')).toBeInTheDocument();
+    expect(await screen.findByText('myPrompt')).toBeInTheDocument();
 
     userEvent.click(screen.getByText('Accept'));
 
@@ -171,7 +171,7 @@ describe('DialogQueue', () => {
 
     queue.prompt({ title: 'myPrompt', body: 'CUSTOM BODY' });
 
-    expect(screen.getByText('myPrompt')).toBeInTheDocument();
+    expect(await screen.findByText('myPrompt')).toBeInTheDocument();
     expect(screen.getByText('CUSTOM BODY')).toBeInTheDocument();
 
     userEvent.click(screen.getByText('Cancel'));
@@ -187,7 +187,7 @@ describe('DialogQueue', () => {
     const onClose = vi.fn();
     queue.alert({ onClose });
 
-    userEvent.click(screen.getByText('OK'));
+    userEvent.click(await screen.findByText('OK'));
 
     await waitFor(() => expect(onClose).toHaveBeenCalled());
   });

@@ -1,5 +1,4 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
-import React from 'react';
 import { Select } from './select';
 
 test('renders learn react link', (done) => {
