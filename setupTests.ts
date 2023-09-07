@@ -1,7 +1,6 @@
-import React from 'react';
 // @ts-ignore
 import '@testing-library/jest-dom';
-import { vi } from 'vitest';
+import { beforeAll, vi } from 'vitest';
 import rmwcTestPolyfill from './packages/base/src/lib/test-polyfill';
 
 Object.defineProperty(global, 'crypto', {
