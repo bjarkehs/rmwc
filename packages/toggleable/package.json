@@ -1,0 +1,27 @@
+{
+  "name": "@rmwc/toggleable",
+  "version": "0.0.1",
+  "description": "RMWC toggle module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "sideEffects": [
+    "./styles.tsx",
+    "./styles.js",
+    "*.css"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "@rmwc/base": "^14.0.1-alpha.0",
+    "@rmwc/formfield": "^14.0.1-alpha.0",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  }
+}

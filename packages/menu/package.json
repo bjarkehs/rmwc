@@ -1,0 +1,30 @@
+{
+  "name": "@rmwc/menu",
+  "version": "0.0.1",
+  "description": "RMWC Menu component",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "sideEffects": [
+    "./styles.tsx",
+    "./styles.js",
+    "*.css"
+  ],
+  "peerDependencies": {
+    "@material/animation": "^14.0.0",
+    "@material/menu": "^14.0.0",
+    "@material/menu-surface": "^14.0.0",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "@rmwc/base": "^14.0.1-alpha.0",
+    "@rmwc/list": "^14.0.1-alpha.0",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  }
+}

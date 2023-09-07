@@ -1,0 +1,21 @@
+{
+  "name": "@rmwc/provider",
+  "version": "0.0.1",
+  "description": "RMWC Provider component",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "@rmwc/base": "^14.0.1-alpha.0",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  }
+}

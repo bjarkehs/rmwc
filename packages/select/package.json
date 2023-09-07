@@ -1,0 +1,34 @@
+{
+  "name": "@rmwc/select",
+  "version": "0.0.1",
+  "description": "RMWC Select component",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "sideEffects": [
+    "./styles.tsx",
+    "./styles.js",
+    "*.css"
+  ],
+  "peerDependencies": {
+    "@material/select": "^14.0.0",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "@rmwc/base": "^14.0.1-alpha.0",
+    "@rmwc/floating-label": "^14.0.1-alpha.0",
+    "@rmwc/icon": "^14.0.1-alpha.0",
+    "@rmwc/line-ripple": "^14.0.1-alpha.0",
+    "@rmwc/list": "^14.0.1-alpha.0",
+    "@rmwc/menu": "^14.0.1-alpha.0",
+    "@rmwc/notched-outline": "^14.0.1-alpha.0",
+    "@rmwc/ripple": "^14.0.1-alpha.0",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  }
+}

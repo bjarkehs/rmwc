@@ -1,0 +1,25 @@
+{
+  "name": "@rmwc/base",
+  "version": "0.0.1",
+  "description": "RMWC base module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "@material/dom": "^14.0.0",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "hyperform": "^0.11.0",
+    "mutation-observer": "^1.0.3",
+    "tslib": "^2.4.0"
+  }
+}

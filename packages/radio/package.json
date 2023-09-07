@@ -1,0 +1,30 @@
+{
+  "name": "@rmwc/radio",
+  "version": "0.0.1",
+  "description": "RMWC Radio component",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "sideEffects": [
+    "./styles.tsx",
+    "./styles.js",
+    "*.css"
+  ],
+  "peerDependencies": {
+    "@material/radio": "^14.0.0",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "@rmwc/base": "^14.0.1-alpha.0",
+    "@rmwc/formfield": "^14.0.1-alpha.0",
+    "@rmwc/ripple": "^14.0.1-alpha.0",
+    "@rmwc/toggleable": "^14.0.1-alpha.0",
+    "@rmwc/types": "^14.0.1-alpha.0"
+  }
+}
