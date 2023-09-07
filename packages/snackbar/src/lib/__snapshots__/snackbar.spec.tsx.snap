@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Snackbar renders 1`] = `
+exports[`Snackbar > renders 1`] = `
 <DocumentFragment>
   <div
     aria-atomic="true"
@@ -31,4 +31,4 @@ exports[`Snackbar renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`SnackbarQueue renders 1`] = `[Function]`;
+exports[`SnackbarQueue > renders 1`] = `[Function]`;

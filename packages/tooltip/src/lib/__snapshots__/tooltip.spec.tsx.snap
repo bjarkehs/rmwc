@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Tooltip can be rich 1`] = `
+exports[`Tooltip > can be rich 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tooltip-wrapper--rich"
@@ -34,7 +34,7 @@ exports[`Tooltip can be rich 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tooltip can be rich and persistent 1`] = `
+exports[`Tooltip > can be rich and persistent 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tooltip-wrapper--rich"
@@ -69,7 +69,7 @@ exports[`Tooltip can be rich and persistent 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tooltip can display arrow 1`] = `
+exports[`Tooltip > can display arrow 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="true"
@@ -97,7 +97,7 @@ exports[`Tooltip can display arrow 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tooltip renders 1`] = `
+exports[`Tooltip > renders 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="true"

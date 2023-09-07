@@ -1,8 +1,7 @@
-import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { SegmentedButton } from './segmented-button';
 import { Segment } from './segment';
+import { SegmentedButton } from './segmented-button';
 
 describe('Segmented Button', () => {
   it('renders', () => {
@@ -17,7 +16,7 @@ describe('Segmented Button', () => {
   });
 
   it('handles onClick', async () => {
-    const onClick = jest.fn();
+    const onClick = vi.fn();
     render(
       <SegmentedButton selectType="single">
         <Segment label="Cookies" value="cookies" onClick={onClick} />

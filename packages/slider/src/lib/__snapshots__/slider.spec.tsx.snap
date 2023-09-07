@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Slider can be a range slider 1`] = `
+exports[`Slider > can be a range slider 1`] = `
 <DocumentFragment>
   <div
     class="mdc-slider mdc-slider--range"
@@ -58,7 +58,7 @@ exports[`Slider can be a range slider 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Slider renders uncontrolled 1`] = `
+exports[`Slider > renders uncontrolled 1`] = `
 <DocumentFragment>
   <div
     class="mdc-slider"
@@ -99,7 +99,7 @@ exports[`Slider renders uncontrolled 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Slider renders with all props 1`] = `
+exports[`Slider > renders with all props 1`] = `
 <DocumentFragment>
   <div
     class="mdc-slider mdc-slider--discrete mdc-slider--tick-marks mdc-slider--disabled mdc-slider--disabled"
@@ -194,7 +194,7 @@ exports[`Slider renders with all props 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Slider renders with range slider props 1`] = `
+exports[`Slider > renders with range slider props 1`] = `
 <DocumentFragment>
   <div
     class="mdc-slider mdc-slider--range"

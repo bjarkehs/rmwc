@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Menu Menu Item can be nested 1`] = `
+exports[`Menu > Menu Item can be nested 1`] = `
 <DocumentFragment>
   <div
     class="mdc-menu-surface--anchor"
@@ -58,7 +58,7 @@ exports[`Menu Menu Item can be nested 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Menu MenuSurface renders 1`] = `
+exports[`Menu > MenuSurface renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-menu-surface--anchor"
@@ -104,14 +104,14 @@ exports[`Menu MenuSurface renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Menu SimpleMenu renders 1`] = `
+exports[`Menu > SimpleMenu renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-menu-surface--anchor"
   >
     <div
       aria-hidden="false"
-      class="mdc-menu mdc-menu-surface mdc-menu-surface--is-open-below mdc-menu-surface--open"
+      class="mdc-menu mdc-menu-surface mdc-menu-surface--animating-open mdc-menu-surface--is-open-below mdc-menu-surface--open"
       style="transform-origin: left top; left: 0px; top: 0px; max-height: 736px;"
     >
       <ul
@@ -150,23 +150,20 @@ exports[`Menu SimpleMenu renders 1`] = `
         </li>
       </ul>
     </div>
-    <button
-      aria-invalid="false"
-      class="hf-validated hf-valid hf-in-range hf-user-valid"
-    >
+    <button>
       Test
     </button>
   </div>
 </DocumentFragment>
 `;
 
-exports[`Menu SimpleMenuSurface renders 1`] = `
+exports[`Menu > SimpleMenuSurface renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-menu-surface--anchor"
   >
     <div
-      class="mdc-menu-surface mdc-menu-surface--is-open-below mdc-menu-surface--open"
+      class="mdc-menu-surface mdc-menu-surface--animating-open mdc-menu-surface--is-open-below mdc-menu-surface--open"
       style="transform-origin: left top; left: 0px; top: 0px; max-height: 736px;"
     >
       <div>
@@ -180,7 +177,7 @@ exports[`Menu SimpleMenuSurface renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Menu renders 1`] = `
+exports[`Menu > renders 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"

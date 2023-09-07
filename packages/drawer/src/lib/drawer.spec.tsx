@@ -1,13 +1,13 @@
-import React from 'react';
 import { render } from '@testing-library/react';
+import React from 'react';
 import {
   Drawer,
+  DrawerAppContent,
   DrawerContent,
   DrawerHeader,
-  DrawerTitle,
   DrawerSubtitle,
-  DrawerAppContent
-} from './';
+  DrawerTitle
+} from './drawer';
 
 describe('Drawer', () => {
   it('Drawer renders', () => {
@@ -41,15 +41,13 @@ describe('Drawer', () => {
 
   it('modal Drawer renders', () => {
     const { asFragment } = render(
-      <React.Fragment>
-        <Drawer modal>
-          <DrawerHeader>
-            <DrawerTitle>Title</DrawerTitle>
-            <DrawerSubtitle>Subtitle</DrawerSubtitle>
-          </DrawerHeader>
-          <DrawerContent />
-        </Drawer>
-      </React.Fragment>
+      <Drawer modal>
+        <DrawerHeader>
+          <DrawerTitle>Title</DrawerTitle>
+          <DrawerSubtitle>Subtitle</DrawerSubtitle>
+        </DrawerHeader>
+        <DrawerContent />
+      </Drawer>
     );
     expect(asFragment()).toMatchSnapshot();
   });

@@ -40,11 +40,11 @@ describe('Menu', () => {
   });
 
   it('does not trigger action when disabled', async () => {
-    const onSelect = jest.fn();
+    const onSelect = vi.fn();
 
     render(
       <MenuSurfaceAnchor>
-        <Menu open={true} onSelect={onSelect} onClose={jest.fn()}>
+        <Menu open={true} onSelect={onSelect} onClose={vi.fn()}>
           <MenuItem>Cookies</MenuItem>
           <MenuItem disabled={true}>Pizza</MenuItem>
           <MenuItem>Icecream</MenuItem>

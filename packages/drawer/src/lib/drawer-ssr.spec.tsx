@@ -7,9 +7,9 @@ import {
   Drawer,
   DrawerContent,
   DrawerHeader,
-  DrawerTitle,
-  DrawerSubtitle
-} from './';
+  DrawerSubtitle,
+  DrawerTitle
+} from './drawer';
 
 describe('Drawer SSR', () => {
   it('Drawer renders', () => {

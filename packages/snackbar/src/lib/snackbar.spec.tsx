@@ -61,7 +61,7 @@ describe('Snackbar', () => {
   });
 
   it('handles events', async () => {
-    const onClose = jest.fn();
+    const onClose = vi.fn();
     render(
       <Snackbar
         open

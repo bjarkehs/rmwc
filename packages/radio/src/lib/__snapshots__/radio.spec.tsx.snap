@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Radio renders 1`] = `
+exports[`Radio > renders 1`] = `
 <div>
   <div
     class="mdc-form-field"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Dialog simple Dialog renders 1`] = `
+exports[`Dialog > simple Dialog renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-dialog mdc-dialog--opening"
@@ -75,7 +75,7 @@ exports[`Dialog simple Dialog renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Dialog simple Dialog renders with children 1`] = `
+exports[`Dialog > simple Dialog renders with children 1`] = `
 <DocumentFragment>
   <div
     class="mdc-dialog mdc-dialog--opening"
@@ -150,7 +150,7 @@ exports[`Dialog simple Dialog renders with children 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Dialog simple Dialog renders with no children 1`] = `
+exports[`Dialog > simple Dialog renders with no children 1`] = `
 <DocumentFragment>
   <div
     class="mdc-dialog mdc-dialog--opening"

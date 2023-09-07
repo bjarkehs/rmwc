@@ -1,8 +1,7 @@
-import React from 'react';
+import { wait } from '@rmwc/test-utils';
 import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { TextField, TextFieldHelperText } from './';
-import { wait } from '@rmwc/base/utils/test-utils';
+import { TextField, TextFieldHelperText } from './textfield';
 
 describe('TextField', () => {
   it('renders', () => {

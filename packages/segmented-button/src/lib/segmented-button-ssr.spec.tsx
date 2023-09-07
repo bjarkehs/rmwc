@@ -2,9 +2,9 @@
  * @jest-environment node
  */
 
-import React from 'react';
 import { renderToString as mount } from 'react-dom/server';
-import { Segment, SegmentedButton } from './';
+import { Segment } from './segment';
+import { SegmentedButton } from './segmented-button';
 
 describe('Segmented Button SSR', () => {
   it('renders', () => {

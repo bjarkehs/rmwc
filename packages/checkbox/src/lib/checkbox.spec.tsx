@@ -25,7 +25,7 @@ describe('Checkbox', () => {
   });
 
   test('handles onChange', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     render(<Checkbox checked={true} onChange={onChange} label="Click me" />);
 
     userEvent.click(screen.getByText('Click me'));

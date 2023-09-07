@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Drawer Drawer renders 1`] = `
+exports[`Drawer > Drawer renders 1`] = `
 <DocumentFragment>
   <aside
     class="mdc-drawer"
@@ -26,7 +26,7 @@ exports[`Drawer Drawer renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Drawer dismissible Drawer renders 1`] = `
+exports[`Drawer > dismissible Drawer renders 1`] = `
 <DocumentFragment>
   <aside
     class="mdc-drawer mdc-drawer--dismissible"
@@ -57,7 +57,7 @@ exports[`Drawer dismissible Drawer renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Drawer modal Drawer renders 1`] = `
+exports[`Drawer > modal Drawer renders 1`] = `
 <DocumentFragment>
   <aside
     class="mdc-drawer mdc-drawer--modal"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Segmented Button can have a trailing icon 1`] = `
+exports[`Segmented Button > can have a trailing icon 1`] = `
 <DocumentFragment>
   <div
     class="mdc-segmented-button"
@@ -23,7 +23,7 @@ exports[`Segmented Button can have a trailing icon 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Segmented Button can have an icon 1`] = `
+exports[`Segmented Button > can have an icon 1`] = `
 <DocumentFragment>
   <div
     class="mdc-segmented-button"
@@ -50,7 +50,7 @@ exports[`Segmented Button can have an icon 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Segmented Button renders 1`] = `
+exports[`Segmented Button > renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-segmented-button mdc-segmented-button--single-select"

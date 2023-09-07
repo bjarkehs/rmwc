@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Tabs Can be stacked 1`] = `
+exports[`Tabs > Can be stacked 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"
@@ -51,7 +51,7 @@ exports[`Tabs Can be stacked 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tabs Can have icon 1`] = `
+exports[`Tabs > Can have icon 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"
@@ -107,7 +107,7 @@ exports[`Tabs Can have icon 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tabs Can have label 1`] = `
+exports[`Tabs > Can have label 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"
@@ -158,7 +158,7 @@ exports[`Tabs Can have label 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tabs Can have restrictIndicator 1`] = `
+exports[`Tabs > Can have restrictIndicator 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"
@@ -214,7 +214,7 @@ exports[`Tabs Can have restrictIndicator 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tabs TabBar renders 1`] = `
+exports[`Tabs > TabBar renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"
@@ -265,7 +265,7 @@ exports[`Tabs TabBar renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Tabs can have no tabs 1`] = `
+exports[`Tabs > can have no tabs 1`] = `
 <DocumentFragment>
   <div
     class="mdc-tab-bar"

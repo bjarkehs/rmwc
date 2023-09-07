@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`DataTable renders 1`] = `
+exports[`DataTable > renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-data-table"
@@ -107,7 +107,7 @@ exports[`DataTable renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`SimpleDataTable renders 1`] = `
+exports[`SimpleDataTable > renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-data-table"
@@ -242,7 +242,7 @@ exports[`SimpleDataTable renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`SimpleDataTable renders with options 1`] = `
+exports[`SimpleDataTable > renders with options 1`] = `
 <DocumentFragment>
   <div
     class="mdc-data-table"

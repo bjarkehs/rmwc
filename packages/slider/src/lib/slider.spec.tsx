@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import { Slider } from './slider';
 
-jest.spyOn(console, 'warn');
+vi.spyOn(console, 'warn');
 
 describe('Slider', () => {
   it('renders uncontrolled', () => {

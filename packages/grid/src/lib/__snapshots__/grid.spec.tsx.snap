@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Grid GridCell align 1`] = `
+exports[`Grid > GridCell align 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top"
@@ -8,7 +8,7 @@ exports[`Grid GridCell align 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid GridCell desktop 1`] = `
+exports[`Grid > GridCell desktop 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop"
@@ -16,7 +16,7 @@ exports[`Grid GridCell desktop 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid GridCell order 1`] = `
+exports[`Grid > GridCell order 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--order-4"
@@ -24,7 +24,7 @@ exports[`Grid GridCell order 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid GridCell phone 1`] = `
+exports[`Grid > GridCell phone 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-phone"
@@ -32,7 +32,7 @@ exports[`Grid GridCell phone 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid GridCell span 1`] = `
+exports[`Grid > GridCell span 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4"
@@ -40,7 +40,7 @@ exports[`Grid GridCell span 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid GridCell tablet 1`] = `
+exports[`Grid > GridCell tablet 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-tablet"
@@ -48,7 +48,7 @@ exports[`Grid GridCell tablet 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid can be align 1`] = `
+exports[`Grid > can be align 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid mdc-layout-grid--align-left"
@@ -67,7 +67,7 @@ exports[`Grid can be align 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid can be fixedColumnWidth 1`] = `
+exports[`Grid > can be fixedColumnWidth 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid mdc-layout-grid--fixed-column-width"
@@ -79,7 +79,7 @@ exports[`Grid can be fixedColumnWidth 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid can have a custom GridRow component 1`] = `
+exports[`Grid > can have a custom GridRow component 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid"
@@ -91,7 +91,7 @@ exports[`Grid can have a custom GridRow component 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid renders grid 1`] = `
+exports[`Grid > renders grid 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid"
@@ -103,7 +103,7 @@ exports[`Grid renders grid 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Grid renders gridCell 1`] = `
+exports[`Grid > renders gridCell 1`] = `
 <DocumentFragment>
   <div
     class="mdc-layout-grid__cell"

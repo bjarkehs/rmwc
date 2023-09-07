@@ -46,7 +46,7 @@ describe('Dialog', () => {
   });
 
   it('triggers onOpen', () => {
-    const onOpen = jest.fn();
+    const onOpen = vi.fn();
     render(
       <SimpleDialog title="This is a simple dialog" open onOpen={onOpen}>
         Hello
@@ -57,7 +57,7 @@ describe('Dialog', () => {
   });
 
   it('triggers onClose', () => {
-    const onClose = jest.fn();
+    const onClose = vi.fn();
     const { rerender } = render(
       <SimpleDialog
         title="This is a simple dialog"
@@ -184,7 +184,7 @@ describe('DialogQueue', () => {
   it('supports onClose', async () => {
     const queue = createDialogQueue();
     render(<DialogQueue dialogs={queue.dialogs} />);
-    const onClose = jest.fn();
+    const onClose = vi.fn();
     queue.alert({ onClose });
 
     userEvent.click(screen.getByText('OK'));

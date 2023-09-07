@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Fab renders 1`] = `
+exports[`Fab > renders 1`] = `
 <div>
   <button
     class="mdc-fab"

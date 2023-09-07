@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`LineRipple renders 1`] = `
+exports[`LineRipple > renders 1`] = `
 <DocumentFragment>
   <span
     class="mdc-line-ripple mdc-line-ripple--deactivating"
@@ -8,7 +8,7 @@ exports[`LineRipple renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`LineRipple renders as active 1`] = `
+exports[`LineRipple > renders as active 1`] = `
 <DocumentFragment>
   <span
     class="mdc-line-ripple mdc-line-ripple--active"
@@ -16,7 +16,7 @@ exports[`LineRipple renders as active 1`] = `
 </DocumentFragment>
 `;
 
-exports[`LineRipple renders with center 1`] = `
+exports[`LineRipple > renders with center 1`] = `
 <DocumentFragment>
   <span
     class="mdc-line-ripple mdc-line-ripple--deactivating"

@@ -1,13 +1,14 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { TabBar, Tab } from './';
+import { Tab } from './tab';
+import { TabBar } from './tab-bar';
 
 describe('Tabs', () => {
   beforeAll(() => {
     // scrollTo is not implemented in JSDOM, mock it
     // @ts-ignore
-    global.scrollTo = jest.fn();
+    global.scrollTo = vi.fn();
   });
 
   it('TabBar renders', () => {

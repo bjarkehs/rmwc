@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Switch renders 1`] = `
+exports[`Switch > renders 1`] = `
 <DocumentFragment>
   <button
     aria-checked="false"

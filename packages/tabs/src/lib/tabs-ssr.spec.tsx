@@ -3,7 +3,8 @@
  */
 import React from 'react';
 import { renderToString as mount } from 'react-dom/server';
-import { TabBar, Tab } from './';
+import { Tab } from './tab';
+import { TabBar } from './tab-bar';
 
 describe('TabBar SSR', () => {
   it('TabBar renders', () => {

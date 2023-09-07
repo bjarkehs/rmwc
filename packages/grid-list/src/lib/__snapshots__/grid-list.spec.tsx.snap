@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`GridList can be tileAspect undefined 1`] = `
+exports[`GridList > can be tileAspect undefined 1`] = `
 <DocumentFragment>
   <div
     class="mdc-grid-list mdc-grid-list--tile-aspect-1x1"
@@ -12,7 +12,7 @@ exports[`GridList can be tileAspect undefined 1`] = `
 </DocumentFragment>
 `;
 
-exports[`GridList can be withIconAlignStart 1`] = `
+exports[`GridList > can be withIconAlignStart 1`] = `
 <DocumentFragment>
   <div
     class="mdc-grid-list mdc-grid-list--with-icon-align-start mdc-grid-list--tile-aspect-1x1"
@@ -24,7 +24,7 @@ exports[`GridList can be withIconAlignStart 1`] = `
 </DocumentFragment>
 `;
 
-exports[`GridList renders 1`] = `
+exports[`GridList > renders 1`] = `
 <DocumentFragment>
   <div
     class="mdc-grid-list mdc-grid-list--tile-aspect-1x1"
