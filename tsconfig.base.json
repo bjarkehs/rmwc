@@ -45,7 +45,7 @@
       "@rmwc/provider": ["packages/provider/src/index.ts"],
       "@rmwc/radio": ["packages/radio/src/index.ts"],
       "@rmwc/ripple": ["packages/ripple/src/index.ts"],
-      "@rmwc/rmwc": ["packages/rmwc/src/index.ts"],
+      "rmwc": ["packages/rmwc/src/index.ts"],
       "@rmwc/segmented-button": ["packages/segmented-button/src/index.ts"],
       "@rmwc/select": ["packages/select/src/index.ts"],
       "@rmwc/slider": ["packages/slider/src/index.ts"],
