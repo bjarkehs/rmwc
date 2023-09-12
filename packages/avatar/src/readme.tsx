@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Docs, DocsExample, DocProps, DocsSubtitle, DocsP } from '@doc-utils';
-import propsSrc from './generated-props.json';
+import { DocProps, Docs, DocsExample, DocsP, DocsSubtitle } from '@doc-utils';
 import examples from './generated-examples.json';
+import propsSrc from './generated-props.json';
 
-import { Avatar, AvatarGroup, AvatarCount } from '.';
-import { Button } from '../button';
-import { Chip } from '../chip';
-import { TextField } from '../textfield';
+import { Button } from '@rmwc/button';
+import { Chip } from '@rmwc/chip';
+import { TextField } from '@rmwc/textfield';
+import { Avatar, AvatarCount, AvatarGroup } from '.';
 
 export default function Readme() {
   return (

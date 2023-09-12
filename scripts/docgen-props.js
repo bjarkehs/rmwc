@@ -12,7 +12,7 @@ try {
     .forEach((d) => {
       console.log(`Building Docs For: ${d}`);
       const proc = exec(
-        `documentalist "./src/${d}/**/!(spec|story).tsx" --no-css --no-md > ./src/${d}/generated-props.json`
+        `documentalist "./packages/${d}/**/!(spec|story).tsx" --no-css --no-md > ./packages/readme/src/generated-props/${d}.json`
       );
 
       proc.stdout.on('data', (data) => {

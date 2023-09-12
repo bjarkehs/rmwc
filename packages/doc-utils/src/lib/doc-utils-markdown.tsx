@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 import React, { useContext, useEffect, useState } from 'react';
-import * as rmwc from 'rmwc';
+// import * as rmwc from 'rmwc';
 
 interface DocumentComponentProps {
   docs: { [key: string]: any };
@@ -73,9 +73,9 @@ class DocumentComponent extends React.Component<DocumentComponentProps> {
             <Br />
             <Br />
             <>
-              <>| Name | Type | Description |</>
+              | Name | Type | Description |
               <Br />
-              <>|------|------|-------------|</>
+              |------|------|-------------|
               <Br />
               {def.props.map((prop) => (
                 <>
@@ -147,7 +147,7 @@ export function Docs({
 }) {
   let index = -1;
   return (
-    <DocsContext.Provider value={{ scope: rmwc, examples }}>
+    <DocsContext.Provider value={{ scope: {}, examples }}>
       <DocsTitle>
         {title}
         {addon && <DocsAddon />}

@@ -1,13 +1,19 @@
 import React from 'react';
 
-import { Docs, DocsExample, DocProps, DocsSubtitle, DocsP } from '@doc-utils';
-import propsSrc from './generated-props.json';
+import {
+  DocProps,
+  Docs,
+  DocsExample,
+  DocsP,
+  DocsSubtitle
+} from '@rmwc/doc-utils';
 import examples from './generated-examples.json';
+import propsSrc from './generated-props.json';
 
+import { Avatar } from '@rmwc/avatar';
+import { Button } from '@rmwc/button';
+import { IconButton } from '@rmwc/icon-button';
 import { Badge, BadgeAnchor } from '.';
-import { Button } from '../button';
-import { IconButton } from '../icon-button';
-import { Avatar } from '../avatar';
 
 export default function Readme() {
   return (

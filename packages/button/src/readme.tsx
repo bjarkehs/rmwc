@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { DocProps, Docs, DocsExample } from '@doc-utils';
+import { DocProps, Docs, DocsExample } from '@rmwc/doc-utils';
 import examples from './generated-examples.json';
 import propsSrc from './generated-props.json';
 
-import { CircularProgress } from '../circular-progress';
-import { TouchTargetWrapper } from '../touch-target';
+import { CircularProgress } from '@rmwc/circular-progress';
+import { TouchTargetWrapper } from '@rmwc/touch-target';
 import { Button } from './lib/button';
 
 export default function Readme() {

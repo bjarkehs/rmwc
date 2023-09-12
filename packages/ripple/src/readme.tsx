@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DocProps, Docs, DocsExample, DocsP } from '@doc-utils';
+import { DocProps, Docs, DocsExample, DocsP } from '@rmwc/doc-utils';
 import examples from './generated-examples.json';
 import propsSrc from './generated-props.json';
 

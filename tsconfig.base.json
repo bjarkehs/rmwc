@@ -18,6 +18,7 @@
       "@rmwc/avatar": ["packages/avatar/src/index.ts"],
       "@rmwc/avatar/readme": ["packages/avatar/src/readme.tsx"],
       "@rmwc/badge": ["packages/badge/src/index.ts"],
+      "@rmwc/badge/readme": ["packages/badge/src/readme.tsx"],
       "@rmwc/base": ["packages/base/src/index.ts"],
       "@rmwc/button": ["packages/button/src/index.ts"],
       "@rmwc/card": ["packages/card/src/index.ts"],
@@ -26,6 +27,7 @@
       "@rmwc/circular-progress": ["packages/circular-progress/src/index.ts"],
       "@rmwc/data-table": ["packages/data-table/src/index.ts"],
       "@rmwc/dialog": ["packages/dialog/src/index.ts"],
+      "@rmwc/doc-utils": ["packages/doc-utils/src/index.ts"],
       "@rmwc/drawer": ["packages/drawer/src/index.ts"],
       "@rmwc/elevation": ["packages/elevation/src/index.ts"],
       "@rmwc/fab": ["packages/fab/src/index.ts"],
@@ -45,7 +47,6 @@
       "@rmwc/provider": ["packages/provider/src/index.ts"],
       "@rmwc/radio": ["packages/radio/src/index.ts"],
       "@rmwc/ripple": ["packages/ripple/src/index.ts"],
-      "rmwc": ["packages/rmwc/src/index.ts"],
       "@rmwc/segmented-button": ["packages/segmented-button/src/index.ts"],
       "@rmwc/select": ["packages/select/src/index.ts"],
       "@rmwc/slider": ["packages/slider/src/index.ts"],
@@ -59,7 +60,8 @@
       "@rmwc/top-app-bar": ["packages/top-app-bar/src/index.ts"],
       "@rmwc/touch-target": ["packages/touch-target/src/index.ts"],
       "@rmwc/types": ["packages/types/src/index.ts"],
-      "@rmwc/typography": ["packages/typography/src/index.ts"]
+      "@rmwc/typography": ["packages/typography/src/index.ts"],
+      "rmwc": ["packages/rmwc/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

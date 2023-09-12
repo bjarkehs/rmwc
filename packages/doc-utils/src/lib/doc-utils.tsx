@@ -4,7 +4,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';
 import ReactMarkdown from 'react-markdown';
-import * as rmwc from 'rmwc';
+// import * as rmwc from 'rmwc';
 
 interface DocumentComponentProps {
   docs: { [key: string]: any };
@@ -257,7 +257,7 @@ const createTextLinks = (text: string) => {
   return (text || '').replace(
     /([^\S]|^)(((https?:\/\/)|(www\.))(\S+))/gi,
     function (match, space, url) {
-      var hyperlink = url;
+      let hyperlink = url;
       if (!hyperlink.match('^https?://')) {
         hyperlink = 'http://' + hyperlink;
       }
@@ -394,7 +394,7 @@ function DocsExampleBase({
                 </Typography>
               )}
 
-              {!!iframe ? (
+              {iframe ? (
                 <IFrame>
                   <LivePreview>{children}</LivePreview>
                 </IFrame>
