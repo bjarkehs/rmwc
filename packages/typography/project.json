@@ -3,7 +3,11 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/typography/src",
   "projectType": "library",
-  "tags": [],
+  "tags": [
+    "publishable",
+    "type:ui-component",
+    "readme"
+  ],
   "targets": {
     "lint": {
       "executor": "@nx/linter:eslint",

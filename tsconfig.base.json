@@ -46,6 +46,7 @@
       "@rmwc/notched-outline": ["packages/notched-outline/src/index.ts"],
       "@rmwc/provider": ["packages/provider/src/index.ts"],
       "@rmwc/radio": ["packages/radio/src/index.ts"],
+      "@rmwc/readme": ["packages/readme/src/index.ts"],
       "@rmwc/ripple": ["packages/ripple/src/index.ts"],
       "@rmwc/segmented-button": ["packages/segmented-button/src/index.ts"],
       "@rmwc/select": ["packages/select/src/index.ts"],
