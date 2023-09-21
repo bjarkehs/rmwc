@@ -1,6 +1,6 @@
 import * as RMWC from '@rmwc/types';
-import React from 'react';
 import classNames from 'classnames';
+import React from 'react';
 import { toDashCase } from './utils/strings';
 
 export interface WithThemeProps {

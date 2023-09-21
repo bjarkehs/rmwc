@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ReactGA from 'react-ga';
-import { useLocation, Location } from 'react-router';
+import { Location, useLocation } from 'react-router';
 
 const doPageView = (loc: Location) =>
   ReactGA.pageview(loc.pathname + loc.search);
@@ -18,5 +18,6 @@ export const Analytics = () => {
   React.useEffect(() => {
     doPageView(location);
   }, [location]);
-  return <></>;
+
+  return null;
 };

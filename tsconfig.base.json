@@ -16,9 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@rmwc/avatar": ["packages/avatar/src/index.ts"],
-      "@rmwc/avatar/readme": ["packages/avatar/src/readme.tsx"],
       "@rmwc/badge": ["packages/badge/src/index.ts"],
-      "@rmwc/badge/readme": ["packages/badge/src/readme.tsx"],
       "@rmwc/base": ["packages/base/src/index.ts"],
       "@rmwc/button": ["packages/button/src/index.ts"],
       "@rmwc/card": ["packages/card/src/index.ts"],

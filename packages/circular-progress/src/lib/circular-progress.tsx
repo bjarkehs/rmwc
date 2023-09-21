@@ -1,8 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Tag, createComponent, useClassNames } from '@rmwc/base';
 import * as RMWC from '@rmwc/types';
 import React from 'react';
-import { useClassNames, Tag, createComponent } from '@rmwc/base';
-import { useCircularProgressFoundation } from './foundation';
 import {
   CX_CY_MAP,
   R_MAP,
@@ -12,6 +11,7 @@ import {
   STROKE_WIDTH_GAP_MAP,
   STROKE_WIDTH_MAP
 } from './constants';
+import { useCircularProgressFoundation } from './foundation';
 
 type Size = 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge';
 

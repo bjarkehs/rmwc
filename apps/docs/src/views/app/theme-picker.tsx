@@ -1,19 +1,19 @@
+import { Tab, TabBar } from '@rmwc/tabs';
 import * as RMWC from '@rmwc/types';
 import React from 'react';
-import { TabBar, Tab } from '@rmwc/tabs';
 
 import {
-  ListItem,
   ListGroupSubheader,
+  ListItem,
   ListItemGraphic,
   ListItemMeta
 } from '@rmwc/list';
 
 import { MenuSurface, MenuSurfaceAnchor } from '@rmwc/menu';
 
-import { Button } from '@rmwc/button';
 import { toCamel, toDashCase } from '@rmwc/base';
-import { getAutoColorsForTheme } from '@rmwc/theme/utils';
+import { Button } from '@rmwc/button';
+import { getAutoColorsForTheme } from '@rmwc/theme';
 import { TopAppBarActionItem } from '@rmwc/top-app-bar';
 
 const DEFAULT_THEME = {

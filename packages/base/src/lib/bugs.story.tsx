@@ -1,39 +1,39 @@
 import React from 'react';
 
-import { Link, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 import { storiesOf } from '@storybook/react';
 import {
-  TextField,
   Button,
   Checkbox,
-  Menu,
-  MenuItem,
-  Select,
-  Switch,
-  TabBar,
-  Tab,
-  IconButton,
-  SimpleDialog,
+  CollapsibleList,
   Dialog,
   DialogContent,
-  MenuSurfaceAnchor,
-  List,
-  CollapsibleList,
-  SimpleListItem,
-  Typography,
+  DialogTitle,
   Icon,
-  Slider,
+  IconButton,
+  List,
   ListItem,
   ListItemGraphic,
-  ListItemText,
   ListItemMeta,
+  ListItemText,
+  Menu,
+  MenuItem,
+  MenuSurfaceAnchor,
+  Radio,
+  Select,
+  SimpleDialog,
+  SimpleListItem,
+  Slider,
+  SnackbarQueue,
+  Switch,
+  Tab,
+  TabBar,
+  TextField,
   Theme,
   ThemeProvider,
-  Radio,
-  DialogTitle,
-  createSnackbarQueue,
-  SnackbarQueue
+  Typography,
+  createSnackbarQueue
 } from '../rmwc';
 
 function Bug538() {
@@ -108,11 +108,9 @@ function Bug560() {
 
 function Bug567() {
   return (
-    <React.Fragment>
-      <ThemeProvider options={{ primary: 'red' }} theme="primary">
-        Expected: red text here. Actual: black.
-      </ThemeProvider>
-    </React.Fragment>
+    <ThemeProvider options={{ primary: 'red' }} theme="primary">
+      Expected: red text here. Actual: black.
+    </ThemeProvider>
   );
 }
 

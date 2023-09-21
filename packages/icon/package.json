@@ -8,12 +8,15 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
+    },
+    "./styles": {
+      "import": "./styles.mjs",
+      "require": "./styles.js"
     }
   },
   "sideEffects": [
-    "./lib/styles.tsx",
-    "./lib/styles.js",
-    "*.css"
+    "./styles.js",
+    "./styles.mjs"
   ],
   "peerDependencies": {
     "react": ">=16.8.x",

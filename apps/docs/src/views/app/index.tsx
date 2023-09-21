@@ -1,41 +1,36 @@
 // eslint-disable-next-line
-import * as RMWC from '@rmwc/types';
 import React, { useEffect, useState } from 'react';
-import { Route, Link, Routes } from 'react-router-dom';
 import { useLocation } from 'react-router';
+import { Link, Route, Routes } from 'react-router-dom';
 import '../../styles';
 
-import { RMWC_VERSION } from '@rmwc/base';
-import {
-  TopAppBar,
-  TopAppBarRow,
-  TopAppBarSection,
-  TopAppBarTitle,
-  TopAppBarNavigationIcon,
-  TopAppBarActionItem,
-  TopAppBarFixedAdjust
-} from '@rmwc/top-app-bar';
-import { Icon } from '@rmwc/icon';
-import { ThemeProvider } from '@rmwc/theme';
-import { Typography } from '@rmwc/typography';
-import { Ripple } from '@rmwc/ripple';
+import { Portal, PortalProvider, RMWC_VERSION } from '@rmwc/base';
 import {
   Drawer,
-  DrawerContent,
   DrawerAppContent,
+  DrawerContent,
   DrawerProps
 } from '@rmwc/drawer';
-
-import { ListItem, CollapsibleList, SimpleListItem, List } from '@rmwc/list';
-import { SimpleMenu, MenuItem } from '@rmwc/menu';
-import { Portal } from '@rmwc/base';
-
+import { Icon } from '@rmwc/icon';
+import { CollapsibleList, List, ListItem, SimpleListItem } from '@rmwc/list';
+import { MenuItem, SimpleMenu } from '@rmwc/menu';
+import { Ripple } from '@rmwc/ripple';
+import { ThemeProvider } from '@rmwc/theme';
+import {
+  TopAppBar,
+  TopAppBarActionItem,
+  TopAppBarFixedAdjust,
+  TopAppBarNavigationIcon,
+  TopAppBarRow,
+  TopAppBarSection,
+  TopAppBarTitle
+} from '@rmwc/top-app-bar';
+import { Typography } from '@rmwc/typography';
+import { DOC_VERSIONS } from '../../common/doc-versions';
+import { MenuItemT, menuContent } from '../../common/menu-content';
 import Home from '../home';
 import { SiteSearch } from '../site-search';
-import { DOC_VERSIONS } from '../../common/doc-versions';
-import { menuContent, MenuItemT } from '../../common/menu-content';
 import { ThemePicker, getTheme } from './theme-picker';
-import { PortalProvider } from '@rmwc/base/PortalContext';
 
 const MainMenuItem = ({ url, label }: { url?: string; label: string }) => {
   const location = useLocation();
@@ -110,34 +105,32 @@ function AppBar({
 
 function Nav(props: DrawerProps) {
   return (
-    <>
-      <Drawer id="main-nav" {...props}>
-        <DrawerContent>
-          <List>
-            <NavItems options={menuContent} />
-          </List>
-        </DrawerContent>
-        <Ripple className="made-by">
-          <Typography use="caption">
-            <Icon
-              icon={{
-                icon: 'android-chrome-192x192.png',
-                strategy: 'url'
-              }}
-            />
+    <Drawer id="main-nav" {...props}>
+      <DrawerContent>
+        <List>
+          <NavItems options={menuContent} />
+        </List>
+      </DrawerContent>
+      <Ripple className="made-by">
+        <Typography use="caption">
+          <Icon
+            icon={{
+              icon: 'android-chrome-192x192.png',
+              strategy: 'url'
+            }}
+          />
+          <div>
             <div>
-              <div>
-                Made with{' '}
-                <span role="img" aria-label="heart">
-                  ❤️
-                </span>{' '}
-                in Sunny FL.
-              </div>
+              Made with{' '}
+              <span role="img" aria-label="heart">
+                ❤️
+              </span>{' '}
+              in Sunny FL.
             </div>
-          </Typography>
-        </Ripple>
-      </Drawer>
-    </>
+          </div>
+        </Typography>
+      </Ripple>
+    </Drawer>
   );
 }
 

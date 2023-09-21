@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import { NotchedOutlineProps } from '.';
-import { useFoundation } from '@rmwc/base';
 import { MDCNotchedOutlineFoundation } from '@material/notched-outline';
+import { useFoundation } from '@rmwc/base';
+import React, { useEffect, useRef } from 'react';
+import { NotchedOutlineProps } from './notched-outline';
 
 export const useNotchedOutlineFoundation = (
   props: NotchedOutlineProps & React.HTMLProps<any>
@@ -27,7 +27,7 @@ export const useNotchedOutlineFoundation = (
   const labelRef = useRef<HTMLLabelElement>();
 
   useEffect(() => {
-    !!props.notch ? foundation.notch(props.notch) : foundation.closeNotch();
+    props.notch ? foundation.notch(props.notch) : foundation.closeNotch();
   }, [props.notch, foundation]);
 
   useEffect(() => {
