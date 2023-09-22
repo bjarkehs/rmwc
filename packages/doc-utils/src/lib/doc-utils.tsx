@@ -4,7 +4,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';
 import ReactMarkdown from 'react-markdown';
-// import * as rmwc from 'rmwc';
+import * as rmwc from 'rmwc';
 
 interface DocumentComponentProps {
   docs: { [key: string]: any };

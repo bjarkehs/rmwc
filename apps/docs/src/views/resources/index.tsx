@@ -2,11 +2,11 @@ import React from 'react';
 
 import {
   Card,
-  CardPrimaryAction,
-  CardMedia,
   CardActionButton,
+  CardActionButtons,
   CardActions,
-  CardActionButtons
+  CardMedia,
+  CardPrimaryAction
 } from '@rmwc/card';
 
 import { Icon } from '@rmwc/icon';

@@ -2,6 +2,7 @@ import { RMWCProvider } from '@rmwc/provider';
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import 'rmwc/styles';
 import { Analytics } from './common/analytics';
 import App from './views/app';
 

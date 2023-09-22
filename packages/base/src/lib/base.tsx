@@ -1,6 +1,7 @@
+import packageJson from '../../package.json';
 import { WithThemeProps as _WithThemeProps } from './with-theme';
+export const RMWC_VERSION = packageJson.version || 'rmwc_version';
 
-export const RMWC_VERSION = process.env.RMWC_VERSION || 'rmwc_version';
 export { default as classNames } from 'classnames';
 export * from './PortalContext';
 export * from './component';

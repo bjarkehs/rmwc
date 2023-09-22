@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router';
 import { Link, Route, Routes } from 'react-router-dom';
-import '../../styles';
+import 'rmwc/styles';
 
 import { Portal, PortalProvider, RMWC_VERSION } from '@rmwc/base';
 import {

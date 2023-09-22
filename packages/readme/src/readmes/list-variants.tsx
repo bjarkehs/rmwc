@@ -8,7 +8,7 @@ import {
   DocsSubtitle
 } from '@rmwc/doc-utils';
 import examples from '../generated-examples/list-variants.json';
-import propsSrc from '../generated-props/list-variants.json';
+import propsSrc from '../generated-props/list.json';
 
 import {
   List,

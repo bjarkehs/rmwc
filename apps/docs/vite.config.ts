@@ -6,6 +6,8 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   cacheDir: '../../node_modules/.vite/docs',
 
+  assetsInclude: ['**/*.md'],
+
   server: {
     port: 4200,
     host: 'localhost'

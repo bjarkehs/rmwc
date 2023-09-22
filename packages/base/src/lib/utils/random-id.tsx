@@ -4,7 +4,7 @@
  */
 export const randomId = (prefix?: string): string => {
   const id =
-    process.env.NODE_ENV === 'test'
+    import.meta.env.MODE === 'test'
       ? 'test'
       : (Math.random() + Math.random() + 1).toString(36).substring(2);
   return `${prefix}-${id}`;

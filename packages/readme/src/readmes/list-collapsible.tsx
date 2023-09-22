@@ -8,7 +8,7 @@ import {
   DocsSubtitle
 } from '@rmwc/doc-utils';
 import examples from '../generated-examples/list-collapsible.json';
-import propsSrc from '../generated-props/list-collapsible.json';
+import propsSrc from '../generated-props/list.json';
 
 import { IconButton } from '@rmwc/icon-button';
 import { CollapsibleList, List, SimpleListItem } from '@rmwc/list';
