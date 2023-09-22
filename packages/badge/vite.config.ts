@@ -29,16 +29,23 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points.
-      entry: 'src/index.ts',
-      name: 'badge',
-      fileName: 'index',
+      entry: {
+        index: 'src/index.ts',
+        styles: 'src/styles.ts'
+      },
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.
       formats: ['es', 'cjs']
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: ['react', 'react-dom', 'react/jsx-runtime', /@rmwc\/.*/],
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        /@rmwc\/.*/,
+        /@material\/.*/
+      ],
       output: {
         outro: (chunk) => {
           if (chunk.isEntry && chunk.name === 'styles') {
