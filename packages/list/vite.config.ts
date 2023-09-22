@@ -26,18 +26,35 @@ export default defineConfig({
   // Configuration for building your library.
   // See: https://vitejs.dev/guide/build.html#library-mode
   build: {
+    cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points.
-      entry: 'src/index.ts',
-      name: 'list',
-      fileName: 'index',
+      entry: {
+        index: 'src/index.ts',
+        styles: 'src/styles.ts',
+        'collapsible-list': 'src/collapsible-list.ts'
+      },
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.
       formats: ['es', 'cjs']
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: ['react', 'react-dom', 'react/jsx-runtime']
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        /@rmwc\/.*/,
+        /@material\/.*/
+      ],
+      output: {
+        outro: (chunk) => {
+          if (chunk.isEntry && chunk.name !== 'index') {
+            return `import './${chunk.name}.css';`;
+          }
+          return '';
+        }
+      }
     }
   },
 

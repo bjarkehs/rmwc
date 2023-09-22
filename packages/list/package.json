@@ -8,12 +8,18 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
+    },
+    "./styles": {
+      "import": "./styles.mjs",
+      "require": "./styles.js"
+    },
+    "./collapsible-list": {
+      "import": "./collapsible-list.mjs",
+      "require": "./collapsible-list.js"
     }
   },
   "sideEffects": [
-    "./styles.tsx",
-    "./styles.js",
-    "*.css"
+    "**/*.css"
   ],
   "peerDependencies": {
     "@material/list": "^14.0.0",

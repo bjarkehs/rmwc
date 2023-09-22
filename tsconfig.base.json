@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@rmwc/avatar": ["packages/avatar/src/index.ts"],
+      "@rmwc/avatar/styles": ["packages/avatar/src/styles.ts"],
       "@rmwc/badge": ["packages/badge/src/index.ts"],
       "@rmwc/base": ["packages/base/src/index.ts"],
       "@rmwc/button": ["packages/button/src/index.ts"],
@@ -34,6 +35,7 @@
       "@rmwc/grid": ["packages/grid/src/index.ts"],
       "@rmwc/grid-list": ["packages/grid-list/src/index.ts"],
       "@rmwc/icon": ["packages/icon/src/index.ts"],
+      "@rmwc/icon/styles": ["packages/icon/src/styles.ts"],
       "@rmwc/icon-button": ["packages/icon-button/src/index.ts"],
       "@rmwc/icon/readme": ["packages/icon/src/readme.tsx"],
       "@rmwc/image-list": ["packages/image-list/src/index.ts"],

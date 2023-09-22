@@ -1,7 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Tag, createComponent, useClassNames } from '@rmwc/base';
-import * as RMWC from '@rmwc/types';
-import React from 'react';
 import {
   CX_CY_MAP,
   R_MAP,

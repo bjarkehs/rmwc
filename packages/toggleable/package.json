@@ -11,9 +11,7 @@
     }
   },
   "sideEffects": [
-    "./styles.tsx",
-    "./styles.js",
-    "*.css"
+    "**/*.css"
   ],
   "peerDependencies": {
     "react": ">=16.8.x",

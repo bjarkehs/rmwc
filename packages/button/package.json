@@ -8,7 +8,10 @@
       "import": "./index.mjs",
       "require": "./index.js"
     },
-    "./styles": "./styles.css"
+    "./styles": {
+      "import": "./styles.mjs",
+      "require": "./styles.js"
+    }
   },
   "peerDependencies": {
     "@material/button": "^14.0.0",

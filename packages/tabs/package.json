@@ -7,12 +7,14 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
+    },
+    "./styles": {
+      "import": "./styles.mjs",
+      "require": "./styles.js"
     }
   },
   "sideEffects": [
-    "./styles.tsx",
-    "./styles.js",
-    "*.css"
+    "**/*.css"
   ],
   "peerDependencies": {
     "@material/tab": "^14.0.0",

@@ -15,8 +15,7 @@
     }
   },
   "sideEffects": [
-    "./styles.js",
-    "./styles.mjs"
+    "**/*.css"
   ],
   "peerDependencies": {
     "react": ">=16.8.x",

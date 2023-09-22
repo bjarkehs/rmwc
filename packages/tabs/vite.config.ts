@@ -1,9 +1,9 @@
 /// <reference types="vitest" />
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
-import dts from 'vite-plugin-dts';
+import react from '@vitejs/plugin-react';
 import * as path from 'path';
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   cacheDir: '../../node_modules/.vite/tabs',
@@ -28,16 +28,23 @@ export default defineConfig({
   build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points.
-      entry: 'src/index.ts',
-      name: 'tabs',
-      fileName: 'index',
+      entry: {
+        index: 'src/index.ts',
+        styles: 'src/styles.ts'
+      },
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.
       formats: ['es', 'cjs']
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: ['react', 'react-dom', 'react/jsx-runtime']
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        /@rmwc\/.*/,
+        /@material\/.*/
+      ]
     }
   },
 

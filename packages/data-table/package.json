@@ -8,12 +8,14 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
+    },
+    "./styles": {
+      "import": "./styles.js",
+      "require": "./styles.css"
     }
   },
   "sideEffects": [
-    "./styles.tsx",
-    "./styles.js",
-    "*.css"
+    "**/*.css"
   ],
   "peerDependencies": {
     "@material/data-table": "^14.0.0",

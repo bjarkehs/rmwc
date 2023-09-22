@@ -26,10 +26,11 @@ export default defineConfig({
   // Configuration for building your library.
   // See: https://vitejs.dev/guide/build.html#library-mode
   build: {
+    cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points.
       entry: {
-        avatar: 'src/index.ts',
+        index: 'src/index.ts',
         styles: 'src/styles.ts'
       },
       // Change this to the formats you want to support.
@@ -38,15 +39,15 @@ export default defineConfig({
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: [
-        'react',
-        'react-dom',
-        'react/jsx-runtime',
-        '@rmwc/base',
-        '@rmwc/icon',
-        '@rmwc/ripple',
-        '@rmwc/types'
-      ]
+      external: ['react', 'react-dom', 'react/jsx-runtime', /@rmwc\/.*/],
+      output: {
+        outro: (chunk) => {
+          if (chunk.isEntry && chunk.name === 'styles') {
+            return "import './styles.css'";
+          }
+          return '';
+        }
+      }
     }
   },
 
