@@ -5,6 +5,7 @@
 - Publish to npm
 - Versioning
 - Make newest docs available on rmwc.io (put it in public folder)
+- Make Github Actions use nx affected
 
 ## Porting to nx
 
