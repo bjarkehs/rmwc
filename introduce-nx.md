@@ -6,6 +6,7 @@
 - Versioning
 - Make newest docs available on rmwc.io (put it in public folder)
 - Make Github Actions use nx affected
+- Describe why pnpm (workspace dependencies)
 
 ## Porting to nx
 

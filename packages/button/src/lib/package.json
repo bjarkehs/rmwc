@@ -37,11 +37,11 @@
   },
   "dependencies": {
     "@material/button": "^14.0.0",
-    "@rmwc/base": "^14.0.1-alpha.0",
-    "@rmwc/icon": "^14.0.1-alpha.0",
-    "@rmwc/provider": "^14.0.1-alpha.0",
-    "@rmwc/ripple": "^14.0.1-alpha.0",
-    "@rmwc/types": "^14.0.1-alpha.0"
+    "@rmwc/base": "workspace:*",
+    "@rmwc/icon": "workspace:*",
+    "@rmwc/provider": "workspace:*",
+    "@rmwc/ripple": "workspace:*",
+    "@rmwc/types": "workspace:*"
   },
   "gitHead": "d9befec0e3b258864b71686eecd16c16feb43cf1"
 }

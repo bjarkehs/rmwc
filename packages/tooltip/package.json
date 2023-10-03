@@ -39,7 +39,7 @@
     "react-dom": ">=16.8.x"
   },
   "dependencies": {
-    "@rmwc/base": "^14.0.1-alpha.0",
-    "@rmwc/provider": "^14.0.1-alpha.0"
+    "@rmwc/base": "workspace:*",
+    "@rmwc/provider": "workspace:*"
   }
 }

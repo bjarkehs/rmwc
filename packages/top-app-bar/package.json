@@ -40,9 +40,9 @@
     "react-dom": ">=16.8.x"
   },
   "dependencies": {
-    "@rmwc/base": "^14.0.1-alpha.0",
-    "@rmwc/icon-button": "^14.0.1-alpha.0",
-    "@rmwc/ripple": "^14.0.1-alpha.0",
-    "@rmwc/types": "^14.0.1-alpha.0"
+    "@rmwc/base": "workspace:*",
+    "@rmwc/icon-button": "workspace:*",
+    "@rmwc/ripple": "workspace:*",
+    "@rmwc/types": "workspace:*"
   }
 }

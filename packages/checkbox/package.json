@@ -41,10 +41,10 @@
     "react-dom": ">=16.8.x"
   },
   "dependencies": {
-    "@rmwc/base": "^14.0.1-alpha.0",
-    "@rmwc/formfield": "^14.0.1-alpha.0",
-    "@rmwc/ripple": "^14.0.1-alpha.0",
-    "@rmwc/toggleable": "^14.0.1-alpha.0",
-    "@rmwc/types": "^14.0.1-alpha.0"
+    "@rmwc/base": "workspace:*",
+    "@rmwc/formfield": "workspace:*",
+    "@rmwc/ripple": "workspace:*",
+    "@rmwc/toggleable": "workspace:*",
+    "@rmwc/types": "workspace:*"
   }
 }

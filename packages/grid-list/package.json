@@ -40,8 +40,8 @@
     "react-dom": ">=16.8.x"
   },
   "dependencies": {
-    "@rmwc/base": "^14.0.1-alpha.0",
-    "@rmwc/icon": "^14.0.1-alpha.0",
-    "@rmwc/types": "^14.0.1-alpha.0"
+    "@rmwc/base": "workspace:*",
+    "@rmwc/icon": "workspace:*",
+    "@rmwc/types": "workspace:*"
   }
 }
