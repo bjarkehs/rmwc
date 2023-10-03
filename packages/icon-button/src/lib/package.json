@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesmfriedman/rmwc.git"
+    "url": "git+https://github.com/rmwc/rmwc.git"
   },
   "keywords": [
     "rmwc"
@@ -28,9 +28,9 @@
   "private": false,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamesmfriedman/rmwc/issues"
+    "url": "https://github.com/rmwc/rmwc/issues"
   },
-  "homepage": "https://github.com/jamesmfriedman/rmwc/tree/master/src/icon-button#readme",
+  "homepage": "https://github.com/rmwc/rmwc/tree/master/src/icon-button#readme",
   "peerDependencies": {
     "react": ">=16.8.x",
     "react-dom": ">=16.8.x"

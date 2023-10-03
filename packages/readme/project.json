@@ -8,6 +8,13 @@
   ],
   "tags": [],
   "targets": {
+    "bootstrap": {
+      "executor": "nx:noop",
+      "dependsOn": [
+        "generate-examples",
+        "generate-props"
+      ]
+    },
     "lint": {
       "executor": "@nx/linter:eslint",
       "outputs": [

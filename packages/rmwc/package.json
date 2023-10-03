@@ -15,6 +15,13 @@
     }
   },
   "sideEffects": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmwc/rmwc.git"
+  },
   "keywords": [
     "rmwc",
     "react",
@@ -27,9 +34,9 @@
   "private": false,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamesmfriedman/rmwc/issues"
+    "url": "https://github.com/rmwc/rmwc/issues"
   },
-  "homepage": "https://github.com/jamesmfriedman/rmwc#readme",
+  "homepage": "https://github.com/rmwc/rmwc#readme",
   "peerDependencies": {
     "react": ">=16.8.x",
     "react-dom": ">=16.8.x"

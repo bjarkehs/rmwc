@@ -9,7 +9,7 @@ import {
   useFoundation
 } from '@rmwc/base';
 import React, { useCallback, useEffect, useRef } from 'react';
-import { DrawerProps } from './drawer';
+import type { DrawerProps } from './types';
 
 const useDrawerFoundationFactory = (
   MDCConstructor:
