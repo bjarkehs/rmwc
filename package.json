@@ -1,7 +1,7 @@
 {
   "name": "@rmwc/source",
   "author": "rmwc",
-  "version": "13.0.0",
+  "version": "14.0.1-alpha.1",
   "private": true,
   "homepage": "https://rmwc.io",
   "description": "RMWC is a React UI Kit built on Google's official Material Components Web library.",
@@ -100,6 +100,9 @@
     "@action-validator/core": "^0.5.3",
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@jscutlery/semver": "^3.1.0",
     "@nx/eslint-plugin": "16.8.0",
     "@nx/js": "16.8.0",
     "@nx/linter": "16.8.0",

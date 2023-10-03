@@ -1,3 +1,7 @@
+# Changelog
+
+This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
+
 #### 14.0.1-alpha.0 (2023-09-05)
 
 #### 14.0.0-alpha.0 (2023-08-22)
