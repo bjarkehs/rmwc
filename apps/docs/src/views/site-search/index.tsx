@@ -1,7 +1,6 @@
 import React, { FormEvent, useRef, useState } from 'react';
 
-import { useNavigate } from 'react-router';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { CircularProgress } from '@rmwc/circular-progress';
 import { SimpleListItem } from '@rmwc/list';

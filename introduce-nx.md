@@ -3,10 +3,9 @@
 ## Missing
 
 - Publish to npm
-- Versioning
 - Make newest docs available on rmwc.io (put it in public folder)
 - Make Github Actions use nx affected
-- Describe why pnpm (workspace dependencies)
+- Cleanup scripts
 
 ## Porting to nx
 

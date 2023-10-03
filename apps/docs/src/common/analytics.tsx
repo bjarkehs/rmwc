@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ReactGA from 'react-ga';
-import { Location, useLocation } from 'react-router';
+import { Location, useLocation } from 'react-router-dom';
 
 const doPageView = (loc: Location) =>
   ReactGA.pageview(loc.pathname + loc.search);

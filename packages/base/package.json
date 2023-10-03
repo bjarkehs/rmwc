@@ -30,10 +30,10 @@
   "peerDependencies": {
     "@material/dom": "^14.0.0",
     "react": ">=16.8.x",
-    "react-dom": ">=16.8.x",
-    "@rmwc/types": "workspace:*"
+    "react-dom": ">=16.8.x"
   },
   "dependencies": {
+    "@rmwc/types": "workspace:*",
     "classnames": "^2.3.1",
     "hyperform": "^0.11.0",
     "mutation-observer": "^1.0.3",
