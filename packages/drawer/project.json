@@ -47,6 +47,13 @@
         "passWithNoTests": true,
         "reportsDirectory": "../../coverage/packages/drawer"
       }
+    },
+    "npm-deploy": {
+      "executor": "ngx-deploy-npm:deploy",
+      "options": {
+        "access": "public",
+        "buildTarget": "production"
+      }
     }
   }
 }

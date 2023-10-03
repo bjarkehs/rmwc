@@ -45,6 +45,13 @@
         "passWithNoTests": true,
         "reportsDirectory": "../../coverage/packages/rmwc"
       }
+    },
+    "npm-deploy": {
+      "executor": "ngx-deploy-npm:deploy",
+      "options": {
+        "access": "public",
+        "buildTarget": "production"
+      }
     }
   }
 }

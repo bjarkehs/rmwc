@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "workspace",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {
     "version": {
@@ -8,7 +8,17 @@
         "syncVersions": true,
         "baseBranch": "next",
         "preset": "conventional",
-        "skipProjectChangelog": true
+        "skipProjectChangelog": true,
+        "postTargets": [
+          "workspace:github-release"
+        ]
+      }
+    },
+    "github-release": {
+      "executor": "@jscutlery/semver:github",
+      "options": {
+        "tag": "${tag}",
+        "notes": "${notes}"
       }
     }
   }
